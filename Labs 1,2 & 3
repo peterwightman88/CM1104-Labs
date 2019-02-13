@@ -1,0 +1,58 @@
+Lab 1
+Q.1
+
+public class CM1104Lab1 {
+
+    public static void main(String[] args) {
+        
+        double a = 3;
+        double b = 6;
+        
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a / b);
+        System.out.println(a % b);
+        
+    }
+    
+}
+
+
+
+Q.2
+
+    public static void main(String[] args) {
+        
+    double metres = 1.75; 
+    double metresToInches = metres * 39.37;
+    
+    int feet = ((int) metresToInches) / 12;
+    int inches = ((int) metresToInches - feet * 12);
+    
+        System.out.println(metres + " metres is " + feet + " feet and "
+                            + inches + " inches");
+        
+    }
+    
+}
+
+
+Q.3 & Q.4
+
+    public static void main(String[] args) {
+        
+   int dice1;
+   int dice2;
+   
+   for (int i = 1; i <= 10; i++){
+       dice1 = (int) (Math.random()*6) + 1;
+       dice2 = (int) (Math.random()*6) + 1;
+       
+       System.out.println("Roll " + i + " produced ");
+       System.out.println("A " + dice1 + " and " + dice2);
+   }
+    }
+    
+   
+  Q.5
+  
